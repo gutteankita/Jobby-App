@@ -1,0 +1,127 @@
+.all-jobs-section {
+  /* background-color: #000000;
+  min-height: 100vh; */
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .all-jobs-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.filter-all-jobs {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+@media (max-width: 576px) {
+  .filter-all-jobs {
+    width: 100%;
+  }
+}
+
+.filter-section {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-grow: 1; */
+  /* border: 2px solid white; */
+  /* margin: 20px; */
+  margin-top: 20px;
+  margin-left: 40px;
+}
+@media (max-width: 576px) {
+  .filter-section {
+    width: 100%;
+    align-items: flex-start;
+    margin-left: 30px;
+    /* margin: 25px; */
+  }
+}
+.jobs-section {
+  /* width: 60%; */
+  /* flex-grow: 1; */
+  /* margin: 20px; */
+}
+
+@media (max-width: 576px) {
+  .jobs-section {
+    /* width: 100%; */
+  }
+}
+.profile-view-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+}
+
+/* search */
+
+.search-container {
+  display: block;
+  margin-top: 30px;
+  border: 2px solid #f1f5f9;
+}
+
+.search-section {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-left: 10px;
+  border-radius: 8px;
+  outline: none;
+
+  /* border: 2px solid red; */
+}
+
+.search-icon {
+  /* background-color: #202020; */
+  color: #f1f5f9;
+  /* outline: none; */
+  /*  */
+
+  /* border-top: 2px solid #7e858e; */
+  /* border-bottom: 2px solid #7e858e; */
+}
+.search-input {
+  width: 100%;
+  background-color: transparent;
+  border-style: none;
+  margin-left: 10px;
+  outline: none;
+  color: #f1f5f9;
+}
+.search-button {
+  background-color: #202020;
+  outline: none;
+  border-style: none;
+  width: 10%;
+  height: 36px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+@media (max-width: 576px) {
+  .search-container {
+    display: none;
+  }
+}
+
+.no-jobs-heading {
+  color: #f1f5f9;
+  text-align: center;
+}
+.no-jobs-description {
+  color: #f1f5f9;
+  text-align: center;
+}

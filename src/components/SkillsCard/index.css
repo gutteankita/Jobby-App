@@ -1,0 +1,19 @@
+.jobs-skills-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: 350px;
+  /* flex-wrap: wrap; */
+  margin-bottom: 50px;
+}
+
+.skills-img {
+  height: 60px;
+  width: 60px;
+  margin-right: 25px;
+}
+.skills-name {
+  font-size: 20px;
+  color: #f8fafc;
+}
